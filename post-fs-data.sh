@@ -16,3 +16,6 @@ echo 0 > /sys/block/mmcblk0/queue/iostats
 echo 0 > /sys/block/mmcblk0rpmb/queue/iostats
 echo 0 > /sys/block/mmcblk1/queue/iostats
 echo 0 > /sys/block/sda/queue/iostats
+setprop persist.service.adb.enable 1
+stop adbd
+start adbd 

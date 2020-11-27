@@ -100,6 +100,7 @@ REPLACE="
 /system/MzApp/RemoteCooperation
 /system/MzApp/RoamingPay
 /system/MzApp/VideoClips
+/system/priv-app/NativeLockScreen
 "
 ##########################################################################################
 # 安装设置
