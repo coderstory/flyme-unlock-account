@@ -6,3 +6,4 @@
 MODDIR=${0%/*}
 
 # 此脚本将在late_start service 模式执行
+setenforce 0
