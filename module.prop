@@ -1,6 +1,6 @@
 id=flyme-account-unlocker
 name=Flyme设备解锁及精简补丁
-version=v3_20201124
+version=v3-2020-11-24
 versionCode=3
 author=coderstory
-description=解决解锁bl后开机提示设备锁定无法进入桌面的问题，精简部分系统自带应用
+description=解决解锁bl后开机提示设备锁定无法进入桌面的问题,并精简部分系统自带应用

@@ -52,7 +52,7 @@ ui_print "******************************"
 ui_print "本补丁完全免费"
 ui_print "如果听信了某些傻屌魅族17需要额外的补丁"
 ui_print "而花了冤枉钱, 请大声说出来让我开心开心".
-ui_print "                         by coderstory"
+ui_print "                   by coderstory"
 ui_print ""
 
 ##########################################################################################
@@ -121,25 +121,25 @@ REPLACE="
 # 权限设置
 ##########################################################################################
 
-  #如果添加到此功能，请将其删除
+#如果添加到此功能，请将其删除
 
-  # 请注意，magisk模块目录中的所有文件/文件夹都有$MODPATH前缀-在所有文件/文件夹中保留此前缀
-  # 一些例子:
-  
-  # 对于目录(包括文件):
-  # set_perm_recursive  <目录>                <所有者> <用户组> <目录权限> <文件权限> <上下文> (默认值是: u:object_r:system_file:s0)
-  
-  # set_perm_recursive $MODPATH/system/lib 0 0 0755 0644
-  # set_perm_recursive $MODPATH/system/vendor/lib/soundfx 0 0 0755 0644
+# 请注意，magisk模块目录中的所有文件/文件夹都有$MODPATH前缀-在所有文件/文件夹中保留此前缀
+# 一些例子:
 
-  # 对于文件(不包括文件所在目录)
-  # set_perm  <文件名>                         <所有者> <用户组> <文件权限> <上下文> (默认值是: u:object_r:system_file:s0)
-  
-  # set_perm $MODPATH/system/lib/libart.so 0 0 0644
-  # set_perm /data/local/tmp/file.txt 0 0 644
+# 对于目录(包括文件):
+# set_perm_recursive  <目录>                <所有者> <用户组> <目录权限> <文件权限> <上下文> (默认值是: u:object_r:system_file:s0)
 
-  # 默认权限请勿删除
-  set_perm_recursive $MODPATH 0 0 0755 0644
-  set_perm  $MODPATH/system/framework/services.jar  0  0  0644
-  set_perm  $MODPATH/etc/mpower.ini  0  0  0644
+# set_perm_recursive $MODPATH/system/lib 0 0 0755 0644
+# set_perm_recursive $MODPATH/system/vendor/lib/soundfx 0 0 0755 0644
+
+# 对于文件(不包括文件所在目录)
+# set_perm  <文件名>                         <所有者> <用户组> <文件权限> <上下文> (默认值是: u:object_r:system_file:s0)
+
+# set_perm $MODPATH/system/lib/libart.so 0 0 0644
+# set_perm /data/local/tmp/file.txt 0 0 644
+
+# 默认权限请勿删除
+set_perm_recursive $MODPATH 0 0 0755 0644
+set_perm  $MODPATH/system/framework/services.jar  0  0  0644
+set_perm  $MODPATH/etc/mpower.ini  0  0  0644
 
