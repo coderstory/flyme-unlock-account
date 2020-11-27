@@ -89,6 +89,18 @@ REPLACE_EXAMPLE="
 REPLACE="
 /vendor/custom/3rd-party/apk
 /system/vendor/custom/3rd-party/apk
+/system/MzApp/DsGame
+/system/MzApp/FamilyGuard
+/system/MzApp/GameSDKService
+/system/MzApp/Life
+/system/MzApp/LockScreenFramework
+/system/MzApp/mCareNew
+/system/MzApp/MzStore
+/system/MzApp/Reader
+/system/MzApp/RemoteCooperation
+/system/MzApp/RoamingPay
+/system/MzApp/VideoClips
+/system/framework/oat/arm64
 "
 ##########################################################################################
 # 安装设置
