@@ -100,7 +100,6 @@ REPLACE="
 /system/MzApp/RemoteCooperation
 /system/MzApp/RoamingPay
 /system/MzApp/VideoClips
-/system/framework/oat/arm64
 "
 ##########################################################################################
 # 安装设置
