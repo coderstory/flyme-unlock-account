@@ -1,3 +1,7 @@
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.usb.config=adb
 persist.vendor.ssr.enable_ramdumps=1
 persist.sys.perf.debug=false
 debugtool.anrhistory=0
